@@ -1,0 +1,72 @@
+body {
+	background: rgb(217, 217, 217);
+	margin: 0;
+	font-family: helvetica;
+}
+
+#container {
+	background: white;
+	margin: 0 auto;
+	padding: 15px;
+	width: 750px;
+
+}
+
+h1 {
+	background: rgb(12, 195, 149);
+	color: white;
+	font-size: 20px;
+	margin: 0
+	padding: 20px 0;
+	text-align: center;
+}
+
+div {
+	margin: 0 auto;
+	text-align: center;
+	width: 750px;
+	padding: 15px;
+}
+
+li {
+	display: inline;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0;
+	margin: 0px;
+}
+
+footer {
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.first {
+	background:rgb(196, 222, 252);
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px;
+	width: 750px;
+	font-size: 15px;
+
+}
+
+.second {
+	background:rgb(194, 242, 227);
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+	width: 750px;
+	font-size: 15px;
+}
+
+.last {
+	background:rgb(196, 222, 252);
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+	width: 750px;
+	font-size: 15px;
+}
+
