@@ -1,0 +1,36 @@
+body {
+	color: #444444;
+	font-family: Lato;
+	line-height: 1.5;
+}
+
+.container {
+	padding: 54px;
+	border-left: 6px solid #dddddd;
+	width: 720px;
+	text-align: left;
+}
+
+
+h1 {
+	color: #dd0000;	
+}
+
+h3 {
+	color: black;
+}
+
+li {
+	color: 221, 221, 221;
+	display: inline-block;
+}
+
+footer {
+	color: #bbbbbb;
+	text-align: left;
+}
+
+a {
+	text-align: left;
+}
+
