@@ -6,3 +6,106 @@ font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif;
 
 */
+
+body {
+	margin: 0;
+}
+
+header {
+	background: black;
+	border-bottom: 5px solid yellow;
+	overflow: auto;
+	padding: 15px 30px;
+}
+
+h1 {
+	color: yellow;
+	float: left;
+	margin: 0;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+
+}
+
+nav a {
+	color: white;
+	font-family: oswald;
+	text-decoration: none;
+}
+
+footer {
+	background: black;
+	clear: both;
+	color: white;
+	font-family: oswald;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.two {
+	background: lightgray;
+	font-size: 20px;
+	font-style: italic;
+	margin: 0;
+	padding: 15px 30px;
+	text-align: center;
+}
+
+.hero {
+	background: url(../img/coworking.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 525px;
+}
+
+.aside {
+	background: lightgray;
+	float: right;
+	margin: 30px;
+	opacity: .8;
+	padding: 15px 30px;
+	width: 25%;
+}
+
+.aside h2 {
+	font-family: oswald;
+	text-align: left;
+}
+
+.aside p {
+	border: 3px solid lightgray;
+	text-align: left;
+}
+
+.aside button {
+	background: yellow;
+	border-radius: 5px;
+	font-family: oswald;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.section {
+	padding: 15px 30px;
+}
+
+.article {
+	float: left;
+	overflow-wrap: normal;
+	padding: 15px 0;
+	width: 33%;
+
+}
+
+
+.article button {
+	background: lightgray;
+	border-radius: 5px;
+	font-family: oswald;
+	font-size: 15px;
+	width: 70%;
+}
