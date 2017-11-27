@@ -1,0 +1,180 @@
+.container {
+	background: linear-gradient(70deg, lightslategray, lavenderblush, white);
+	height: 100%;
+	margin: auto;
+	width: auto;
+	padding: 5px;
+}
+
+.row-one {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 430px;
+	justify-content: ;
+	object-fit: contain;
+	width: 100%;
+}
+
+.row-one div{
+	align-content: center;
+	margin: 18px;
+}
+
+.row-two {
+	display: inline-flex;
+	flex-direction: row;
+	height: 430px;
+	justify-content: ;
+	object-fit: contain;
+	width: 400px;
+}
+
+.row-two div{
+	align-content: center;
+	margin: 18px;
+}
+
+.row-three {
+	display: inline-flex;
+}
+
+.row-three div{
+	margin: 18px;
+}
+
+.more {
+	color:white;
+	display: inline-block;
+	text-align: center;
+	padding 5px;
+}
+
+.more a{
+	color: white;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.content {
+	background: linear-gradient(70deg, slategrey, lightslategray, white);
+	border: solid black;
+	box-shadow: 10px 10px 5px #888888;
+	float: left;
+	height: 930px;
+	margin: auto;
+	padding: 5px;
+	width: 50%;
+}
+
+
+
+.footer {
+	display: inline;
+	margin: 0px;
+	padding: 3px;
+	width: 100%;
+	color: white:
+	background: black;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 0px;
+}
+
+.footer ul li{
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer li{
+	color: white;
+	display: inline-flex;
+	text-decoration: none;
+}
+
+.footer li a{
+	color: white;
+	text-decoration: none;
+	margin: 0px
+	padding: 3px;
+}
+
+#page-header {
+	background: ;
+	color: black;
+	height: 230px;
+	padding: 0px;
+	width: auto;
+	text-align: center;
+	text-decoration: none;
+}
+
+#page-header h3 a{
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 3px 0 3px 0;
+	text-decoration: none;
+}
+#page-header h1 a{
+	color: black;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 60px;
+	padding: 0px;
+	margin 0px;
+	text-decoration: none;
+	text-shadow: 2px 2px #888888;
+}
+#page-header h3{
+	font-family: 'Homemade Apple', cursive;
+}
+
+
+footer {
+	color: white;
+	background: black;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 0px;
+}
+
+@media screen and (max-width: 1335px) {
+	.row-one {
+		flex-direction: column;
+		height: 100%;
+		width: 100%;
+	}
+
+	.row-one div{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.row-two{
+		flex-direction: column;
+		height: 100%;
+		width: 100%;
+	}
+
+	.row-two div{
+		flex-direction: column;
+		width: 100%;
+	}
+
+
+	.row-three{
+		flex-direction: column;
+		height: 100%;
+		width: 100%;
+	}
+	.row-three div{
+		flex-direction: column;
+		width: 100%;
+	}
+	footer {
+		clear: both;
+	}

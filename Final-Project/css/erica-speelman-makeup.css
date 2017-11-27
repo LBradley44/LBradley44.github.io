@@ -1,50 +1,133 @@
 .container {
-	background-color: blue;
+	background: lavenderblush;
 	padding: 5px;
 }
 
-.links {
-	color:black;
+.more {
+	color:white;
+	display: inline-block;
 	text-align: center;
 	padding 5px;
 }
 
+.more a{
+	color: white;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
 .content {
-	background: yellow;
-	background-size: fit;
-	overflow: hidden;
+	background: linear-gradient(70deg, slategrey, lightslategray, white);
+	border: solid black;
+	box-shadow: 10px 10px 5px #888888;
 	float: left;
+	height: 930px;
+	margin: auto;
 	padding: 5px;
 	width: 50%;
 }
 
+.content p{
+	font-family: 'Over the Rainbow', cursive;
+	height: 930px;
+	margin: 5px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
 .main-content h2 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 24px;
 	text-align: center;
 }
 
 .portrait {
+	background: url(../img/erica-closeup.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+ 	background-size: contain;
+ 	height: 600px;
+ 	width: 650px;
 	
 }
 .sidebar {
-	background: lightgray;
+	background: linear-gradient(70deg, lightslategray, white);
+	border: solid black;
+	box-shadow: 10px 10px 5px #888888;
 	float: right;
+	font-family: 'Shadows Into Light', cursive;
 	padding: 5px;
 	width: 30%;
 	text-align: center;
 }
 
+
+.sidebar h1 a{
+	border-bottom: black;
+	color: black;
+	text-decoration: none;
+}
+
+.sidebar h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.sidebar h3{
+	font-family: 'Francois One', sans-serif;
+}
 .footer {
 	clear: both;
-	padding: 5px;
+	display: inline;
+	margin: 3px;
+	padding: 3px;
+}
+
+.footer li{
+	color: lightgrey;
+	display: inline-flex;
+	text-decoration: none;
+}
+
+.footer li a{
+	color: lightgray;
+	text-decoration: none;
 }
 
 #page-header {
-	background: orange;
-	padding: 5px;
+	background: ;
+	color: black;
+	height: 230px;
+	padding: 0px;
+	width: auto;
 	text-align: center;
+	text-decoration: none;
+}
+
+#page-header h3 a{
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 3px 0 3px 0;
+	text-decoration: none;
+}
+#page-header h1 a{
+	color: black;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 60px;
+	padding: 0px;
+	margin 0px;
+	text-decoration: none;
+	text-shadow: 2px 2px #888888;
+}
+#page-header h3{
+	font-family: 'Homemade Apple', cursive;
 }
 
 nav {
+	background: slategray;
+	margin-top: 5px;
 	text-align: center;
 }
 
@@ -74,5 +157,28 @@ ul {
 }
 
 footer {
+	background: black;
+	color: lightslategray;
 	clear: both;
+	display: center;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	padding-top: 0px;
+	position: relative;
 }
+
+@media screen and (max-width: 1015px) {
+	.sidebar {
+		float: none;
+		height: 100%;
+	}
+
+	.content{
+		float: left;
+		height: 100%;
+	}
+
+	.portrait{
+		float: left;
+	}
+}	
